@@ -225,29 +225,33 @@ img {
 @media only screen and (max-width: 800px){
     .hompagePhoto{
         width: 100%;
-        height: 620px;
+        height: 470px;
         background-size: 130%;
         background-position: center;
-        background-position-y:27%;
+        background-position-y:45%;
         background-position-x:40%;
         
     }
     .photoBox{
-        
-        left:10%;
-        width:80%;
+        left:5%;
+        width:88%;
+        height:30%;
       }
     .photoBox p{
+        display:none;
         font-size:20px;
     }
     .photoBox h3{
-        font-size:45px;
+        font-size:35px;
     }
     .buttonPhotoDiv{
         padding-top:15px;
+        text-align: center;
+        padding-right:50px;
     }
     .photoBox button{
-        height: 20%;
+        height: 30%;
+        width:60%;
     }
 }
 
@@ -316,7 +320,6 @@ img {
         height:200px;
     }
     .inside-contents p{
-        
         height:10px;
     }
     .inside-contents button{
@@ -347,6 +350,20 @@ img {
     }
     .buttonContent3 button{
         background-image: linear-gradient(to bottom right,#0c288f, #0e7392);
+    }
+}
+@media only screen and (max-width: 800px){
+    .inside-contents h1{
+        font-size:35px;
+    }
+    .inside-contents p{
+        font-size:20px;
+    }
+    .buttonPhotoDiv{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        padding-left:50px;
     }
 }
 
@@ -460,6 +477,39 @@ img {
     }
     .phoneTextholder div{
         padding-left:33%;
+    }
+}
+@media only screen and (max-width: 800px){
+    .phoneDivHolder{
+        display:none;
+    }
+    .parent{
+        display:none;
+        }
+    .text-side{
+        display:flex;
+        flex-direction: column;
+    }
+    .about-holder{
+        display:flex;
+        flex-direction: column;
+        padding-top: 0;
+        margin-top: 0;
+        background-color:rgba(219, 218, 218, 0.548);
+        height: 80%;
+    }
+    .text-side{
+        width:90%;
+        padding-left:10px;
+    }
+    .text-side p{
+        padding-top:0px;
+        margin-top:0px;
+        font-size:20px;
+    }
+    .text-side h1{
+        margin-bottom:20px;
+        font-size: 45px;
     }
 }
 
@@ -740,6 +790,18 @@ img {
         color:black;
     }
 }
+@media only screen and (max-width: 800px){
+    .bottomIconHolder{
+        display:flex;
+        flex-direction: column;
+    }
+    .bottomIconHolder .informationCard{
+        width:90%;
+        text-align: center;
+        padding-left:20px;
+        padding-top: 40px;
+    }
+}
 
 
 /* Footer  */
@@ -959,6 +1021,15 @@ img {
 	.footer-distributed form button{
 		float: none;
 	}
+    .footer-links{
+        display:none;
+    }
+    .footer-links-left{
+        display:none;
+    }
+    .footer-links-right{
+        display:none;
+    }
 }
 
 
