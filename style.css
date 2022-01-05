@@ -243,6 +243,7 @@ img {
     }
     .photoBox h3{
         font-size:35px;
+        text-align: center;
     }
     .buttonPhotoDiv{
         padding-top:15px;
@@ -250,8 +251,8 @@ img {
         padding-right:50px;
     }
     .photoBox button{
-        height: 30%;
-        width:60%;
+        height: 40%;
+        width:70%;
     }
 }
 
@@ -363,7 +364,7 @@ img {
         display:flex;
         align-items: center;
         justify-content: center;
-        padding-left:50px;
+        
     }
 }
 
