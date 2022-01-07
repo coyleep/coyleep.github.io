@@ -245,15 +245,14 @@ img {
         font-size:35px;
         text-align: center;
     }
-    .buttonPhotoDiv{
+    .buttonPhotoDiv1{
         padding-top:15px;
         text-align: center;
-        padding-right:50px;
+
     }
     .photoBox button{
         height:40px;
-        width:70%;
-	margin-right:40%;
+        width:60%;
     }
 }
 
@@ -365,8 +364,12 @@ img {
         display:flex;
         align-items: center;
         justify-content: center;
-        margin-left: 40px;
         width:110%;
+    }
+    .buttonPhotoDiv button{
+        width:45%;
+        text-align: center;
+        white-space: nowrap;
     }
 }
 
