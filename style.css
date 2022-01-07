@@ -246,13 +246,14 @@ img {
         text-align: center;
     }
     .buttonPhotoDiv1{
-        padding-top:15px;
+        padding-top:25px;
         text-align: center;
-
+        padding-right:30px;
     }
     .photoBox button{
         height:40px;
         width:60%;
+        
     }
 }
 
@@ -1339,7 +1340,7 @@ and (max-width: 812px){
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 1fr);
       }
-	.margin-top-footer{
+      .margin-top-footer{
           margin-top: 0;
       }
 }
