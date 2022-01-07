@@ -253,6 +253,7 @@ img {
     .photoBox button{
         height:40px;
         width:70%;
+	margin-right:40%;
     }
 }
 
