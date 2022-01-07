@@ -1339,4 +1339,7 @@ and (max-width: 812px){
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 1fr);
       }
+	.margin-top-footer{
+          margin-top: 0;
+      }
 }
