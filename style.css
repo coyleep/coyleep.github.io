@@ -180,11 +180,14 @@ img {
 .buttonPhotoDiv{
     padding-left:20px;
 }
+.buttonPhotoDiv1{
+    padding-left:20px;
+}
 .photoBox button{
     color:black;
     opacity:1;
     font-size:20px;
-    width:35%;
+    width:30%;
     height:18%;
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
@@ -247,8 +250,7 @@ img {
     }
     .buttonPhotoDiv1{
         padding-top:25px;
-        text-align: center;
-        padding-right:30px;
+        margin-left:25%;
     }
     .photoBox button{
         height:40px;
@@ -366,6 +368,7 @@ img {
         align-items: center;
         justify-content: center;
         width:110%;
+        padding-top:20px;
     }
     .buttonPhotoDiv button{
         width:45%;
