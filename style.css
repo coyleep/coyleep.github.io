@@ -10,6 +10,9 @@
 
 /* Navbar */
 
+a{
+    text-decoration:none;
+}
 nav{
     margin:0;
     padding:0;
@@ -180,6 +183,9 @@ img {
 .buttonPhotoDiv{
     padding-left:20px;
 }
+.buttonPhotoDiv a{
+    color:white;
+}
 .buttonPhotoDiv1{
     padding-left:20px;
 }
@@ -191,6 +197,10 @@ img {
     height:18%;
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
+    color:black;
+}
+.photobox button a{
+    color:black;
 }
 .photoBox button:hover{
     color:white;
@@ -255,7 +265,6 @@ img {
     .photoBox button{
         height:40px;
         width:60%;
-        
     }
 }
 
@@ -707,6 +716,12 @@ img {
     opacity: 1;
     color:black;
     transform: translateY(20px);
+}
+.card-dropdown h4 a{
+    color:white;
+}
+.card-dropdown p a{
+    color:black;
 }
 .card-dropdown:hover .educational-saving{
     transform: translateY(-30px);
